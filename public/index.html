@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login de prueba con Sockets</title>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="main.js"></script>
+</head>
+<body>
+	<h1>Aplicación</h1>
+
+	<div id="messages"></div>
+	<br>
+	<form onsubmit="return addMessage(this)">
+		<input type="text" id="usuario" placeholder="Nombre">
+		<input type="text" id="texto" placeholder="Texto a enviar">
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
